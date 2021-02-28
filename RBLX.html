@@ -696,6 +696,47 @@ Roblox.Endpoints.Urls = Roblox.Endpoints.Urls || {};
 
 </head>
 <body>
+    <div id="header" class="navbar-fixed-top rbx-header" role="navigation">
+        <div class="container-fluid">
+          <div class="rbx-navbar-header">
+            <div id="header-menu-icon" role="button" tabindex="0" class="rbx-nav-collapse">
+              <span class="icon-nav-menu"></span>
+            </div>
+            <div class="navbar-header">
+              <a class="navbar-brand" href="/home"><span class="icon-logo"></span><span class="icon-logo-r"></span></a>
+            </div>
+          </div>
+          <ul class="nav rbx-navbar hidden-xs hidden-sm col-md-5 col-lg-4">
+            <li class="cursor-pointer">
+              <a class="font-header-2 nav-menu-title text-header" href="/games">Games</a>
+            </li>
+            <li class="cursor-pointer">
+              <a class="font-header-2 nav-menu-title text-header" href="/catalog">Avatar Shop</a>
+            </li>
+            <li class="cursor-pointer">
+              <a class="font-header-2 nav-menu-title text-header" href="/develop">Create</a>
+            </li>
+            <li class="cursor-pointer">
+              <a class="font-header-2 nav-menu-title text-header" href="/my/money.aspx#/#TradeItems_tab">Trade</a>
+            </li>
+          </ul>
+      
+          <ul class="nav rbx-navbar hidden-md hidden-lg col-xs-12">
+            <li class="cursor-pointer">
+              <a class="font-header-2 nav-menu-title text-header" href="/games">Games</a>
+            </li>
+            <li class="cursor-pointer">
+              <a class="font-header-2 nav-menu-title text-header" href="/catalog">Avatar Shop</a>
+            </li>
+            <li class="cursor-pointer">
+              <a class="font-header-2 nav-menu-title text-header" href="/develop">Create</a>
+            </li>
+            <li class="cursor-pointer">
+              <a class="font-header-2 nav-menu-title text-header" href="/my/money.aspx#/#TradeItems_tab">Trade</a>
+            </li>
+          </ul>
+          <div id="right-navigation-header"><div id="navbar-universal-search" class="navbar-left navbar-search col-xs-5 col-sm-6 col-md-2 col-lg-3" role="search"><div class="input-group"><form><input id="navbar-search-input" class="form-control input-field" type="text" placeholder="Search" maxlength="120" autocomplete="off" value=""></form><div class="input-group-btn"><button id="navbar-search-btn" class="input-addon-btn" type="submit"><span class="icon-nav-search"></span></button></div></div><ul class="dropdown-menu" role="menu"><li class="navbar-search-option rbx-clickable-li  selected"><a class="navbar-search-anchor" href="https://www.roblox.com/search/users?keyword=">Search "" in Players</a></li><li class="navbar-search-option rbx-clickable-li"><a class="navbar-search-anchor" href="https://www.roblox.com/games/?Keyword=">Search "" in Games</a></li><li class="navbar-search-option rbx-clickable-li"><a class="navbar-search-anchor" href="https://www.roblox.com/catalog/browse.aspx?CatalogContext=1&amp;Keyword=">Search "" in Avatar Shop</a></li><li class="navbar-search-option rbx-clickable-li"><a class="navbar-search-anchor" href="https://www.roblox.com/search/groups?keyword=">Search "" in Groups</a></li><li class="navbar-search-option rbx-clickable-li"><a class="navbar-search-anchor" href="https://www.roblox.com/develop/library?CatalogContext=2&amp;Category=6&amp;Keyword=">Search "" in Library</a></li></ul></div><div class="navbar-right rbx-navbar-right"><ul class="nav navbar-right rbx-navbar-right-nav"><li class="signup-button-container"><a class="rbx-navbar-signup btn-growth-sm nav-menu-title signup-button" href="https://www.roblox.com/account/signupredir?returnUrl=https%3A%2F%2Fwww.roblox.com%2FLogin" id="sign-up-button">Sign Up</a></li><li class="login-action"></li><li class="cursor-pointer rbx-navbar-right-search" role="menuitem"><span class="rbx-menu-icon rbx-menu-item"><span class="icon-nav-search-white"></span></span></li></ul></div></div>
+        </div>
     <div class="container-fluid">
     <br>
     <br>
@@ -708,11 +749,10 @@ Roblox.Endpoints.Urls = Roblox.Endpoints.Urls || {};
     <br>
     <input id="login-password" name="password" type="password" class="form-control input-field ng-valid ng-not-empty ng-dirty ng-valid-parse ng-touched" placeholder="Password" ng-model="loginFormData.password" key-press-enter="submit(true)" ng-keypress="clearError()" rbx-form-interaction="">
     <br>
+    
     <button id="login-button" class="btn-full-width login-button ng-binding btn-secondary-md" ng-class="loginLayout.usePrimaryButtonClass ? 'btn-primary-md' : 'btn-secondary-md'" ng-bind="'Action.LogInCapitalized' | translate" ng-click="submit(true)">Log In</button>
-    <br>
-    <br>
-    <br>
-    <br>
+    <br><br><br><br>
+    <a href="https://www.roblox.com/login/forgot-password-or-username"><p style="text-align:center;">Forgot Password?</p></a>
     <br>
     </form>
     </div>
